@@ -1,0 +1,41 @@
+#home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  a {
+    display: block;
+    margin: 1rem auto;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    width: 200px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+      color: black;
+      background-color: #fafafa;
+    }
+  }
+
+  button.logout-button {
+    color: white;
+    background-color: red;
+    border: none;
+    display: inline;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    margin: 0 0.3rem;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+      background-color: white;
+    }
+  }
+}

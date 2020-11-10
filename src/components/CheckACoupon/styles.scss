@@ -1,0 +1,36 @@
+#check-coupon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  form {
+    input,
+    button {
+      display: block;
+      margin: auto;
+    }
+
+    input {
+      padding: 0.5rem;
+      border-radius: 10px;
+      width: 80%;
+    }
+
+    button {
+      margin-top: 2rem;
+      padding: 0.7rem 3rem;
+      background-color: black;
+      color: white;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: 0.7rem 3rem;
+    background-color: white;
+    color: black;
+  }
+}
